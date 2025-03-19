@@ -10,18 +10,17 @@
   --color-gray-white2: #a5a5a5;
   --color-gray-white3: #d8d8d8;
 
-  /* gradient 
-     #36853a;
-     #3c9541;
-     #757575;
-
-   */
-
   --color-blue-gray: #151c24;
 
   --color-white: #ffffff;
 
-  --color-mint-500: oklch(0.72 0.11 178);
+  /* gradient 
+     #36853a;
+     #3c9541;
+     #757575;
+   */
+
+  /* unused colors: */
 
   --color-blue: #6f9de2;
   --color-purple: #9871f3;
@@ -37,6 +36,7 @@
   --color-gray-800: #13161b;
   --color-gray-900: #0f1216;
 
-  --font-heading: var(--font-oxanium);
-  --font-sans: var(--font-montserrat);
+  /* font */
+
+  --font-text: var(--font-inter);
 }

@@ -1,11 +1,18 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Fieldguide",
   description: "Effortless, secure, and intelligent audit management.",
 };
+
+const inter = Inter({
+  weight: ["400", "500", "700"],
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export default function RootLayout({
   children,
@@ -13,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="bg-gray-900 text-white">{children}</body>
+    <html lang="en" className={`${inter.variable}`}>
+      <body className="bg-blue-background text-white">{children}</body>
     </html>
   );
 }
