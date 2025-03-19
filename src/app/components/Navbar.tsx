@@ -27,7 +27,7 @@ export default function Navbar() {
       <ul className="hidden md:flex space-x-12">
         {navbarData.links.map((link) => (
           <li key={link.href}>
-            <Link href={link.href} className=" hover:gray-white1 transition">
+            <Link href={link.href} className="font-light text-sm">
               {link.label}
             </Link>
           </li>
