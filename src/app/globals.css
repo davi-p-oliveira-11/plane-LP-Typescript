@@ -3,7 +3,22 @@
 @theme {
   --color-*: initial;
 
-  --color-green: #36853a;
+  --color-green-primary: #36853a;
+  --color-blue-background: #1a232d;
+
+  --color-gray-white: #dadada;
+  --color-gray-white2: #a5a5a5;
+  --color-gray-white3: #d8d8d8;
+
+  /* gradient 
+     #36853a;
+     #3c9541;
+     #757575;
+
+   */
+
+  --color-blue-gray: #151c24;
+
   --color-white: #ffffff;
 
   --color-mint-500: oklch(0.72 0.11 178);
