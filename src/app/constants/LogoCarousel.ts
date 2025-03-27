@@ -1,4 +1,6 @@
-const logos = [
+import { Logo } from "../types/LogoCaroulsel";
+
+export const logos: Logo[] = [
   "/images/assets/aprio.svg",
   "/images/assets/berrydunn.svg",
   "/images/assets/cbiz.svg",
