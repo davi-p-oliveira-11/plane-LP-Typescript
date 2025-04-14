@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Companies from "./sections/Companies";
 import Hero from "./sections/Hero";
 import InfoSection from "./sections/InfoSection";
+import TestimonialSection from "./sections/TestimonialSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Companies />
       <InfoSection />
+      <TestimonialSection />
     </main>
   );
 }
