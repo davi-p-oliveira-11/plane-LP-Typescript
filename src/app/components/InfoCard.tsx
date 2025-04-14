@@ -8,7 +8,7 @@ export default function InfoCard() {
         Why FieldGuide
       </p>
       <h3 className="text-2xl font-semibold">Smarter Audits, Happier Teams</h3>
-      <p className="text-gray-600 mb-8">
+      <p className=" mb-8">
         From planning to delivery, our platform simplifies every step of the
         audit process.
       </p>
@@ -17,7 +17,7 @@ export default function InfoCard() {
         {features.map((feature, index) => (
           <div key={index}>
             <p className="font-semibold text-lg">{feature.title}</p>
-            <p className="text-sm text-gray-600">{feature.description}</p>
+            <p className="text-sm">{feature.description}</p>
           </div>
         ))}
       </div>
