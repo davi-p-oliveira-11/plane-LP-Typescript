@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Companies from "./sections/Companies";
+import CTA from "./sections/CTA";
 import Hero from "./sections/Hero";
 import InfoSection from "./sections/InfoSection";
 import TestimonialSection from "./sections/TestimonialSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <Companies />
       <InfoSection />
       <TestimonialSection />
+      <CTA />
     </main>
   );
 }
