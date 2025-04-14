@@ -1,4 +1,5 @@
 import React from "react";
+import { features } from "../constants/Features";
 
 export default function InfoCard() {
   return (
@@ -21,15 +22,5 @@ export default function InfoCard() {
         ))}
       </div>
     </div>
-
-<div className="flex-1">
-<Image
-  src="/images/assets/feature-illustration.svg"
-  alt="Illustration"
-  width={600}
-  height={400}
-  className="w-full h-auto rounded-lg shadow-md"
-/>
-</div>
   );
 }
