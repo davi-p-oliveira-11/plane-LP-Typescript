@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Companies from "./sections/Companies";
 import CTA from "./sections/CTA";
@@ -14,6 +15,7 @@ export default function Home() {
       <InfoSection />
       <TestimonialSection />
       <CTA />
+      <Footer />
     </main>
   );
 }
