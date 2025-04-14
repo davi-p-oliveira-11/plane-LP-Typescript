@@ -1,3 +1,3 @@
-export type Logo = string;
+// export type Logo = string;
 
-export const logos: Logo[];
+// export const logos: Logo[];
