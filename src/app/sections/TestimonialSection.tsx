@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { logos } from "../constants/LogoCarousel";
 import TestimonialCard from "../components/TestimonialCard";
 import DataCard from "../components/DataCard";
