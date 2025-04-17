@@ -1,12 +1,12 @@
 import { Logo } from "../types/LogoCaroulsel";
 
 export const logos: Logo[] = [
-  "/images/assets/berrydunn.svg",
-  "/images/assets/cbiz.svg",
-  "/images/assets/cri.svg",
-  "/images/assets/hoolbrook.svg",
-  "/images/assets/lbmc.svg",
-  "/images/assets/warren-averett.svg",
-  "/images/assets/weaver.svg",
-  "/images/assets/wipfli.svg",
+  "/images/assets/deloitte.svg",
+  "/images/assets/appsmith.svg",
+  "/images/assets/vigilant.svg",
+  "/images/assets/edison.svg",
+  "/images/assets/kobe.svg",
+  "/images/assets/simplamo.svg",
+  "/images/assets/soulpage.svg",
+  "/images/assets/vigilant.svg",
 ];
