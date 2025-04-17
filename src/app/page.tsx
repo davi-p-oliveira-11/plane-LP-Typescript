@@ -16,8 +16,12 @@ export default function Home() {
       <InfoSection />
       <StatsSection />
       <TestimonialSection />
-      <CTA />
-      <Footer />
+      <div className="bg-[#111827] text-white py-16">
+        <CTA />"
+      </div>
+      <div>
+        <Footer />
+      </div>
     </main>
   );
 }
