@@ -31,17 +31,6 @@ export default function Hero() {
         height={300}
         className="mt-6"
       />
-
-      <h4 className="text-xl font-semibold mb-2">
-        Trusted by Industry Leaders
-      </h4>
-
-      <p className="text-muted-foreground max-w-xl mb-8">
-        Join thousands of professionals who rely on FieldGuide to transform
-        their audit process.
-      </p>
-
-      <VideoPlayer />
     </section>
   );
 }
