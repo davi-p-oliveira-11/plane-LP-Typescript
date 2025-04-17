@@ -3,6 +3,14 @@
 @theme {
   --color-*: initial;
 
+  --color-blue-primary: #3e76fe;
+
+  --color-blue-gray: #111827;
+  --color-blue-gray-2: #38404a;
+
+  --color-black-background: #000000;
+  --color-white-background: #f8f9fa;
+
   --color-green-primary: #36853a;
   --color-blue-background: #1a232d;
 
