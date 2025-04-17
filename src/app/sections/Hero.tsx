@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../components/Button";
 import Image from "next/image";
-import VideoPlayer from "../components/VideoPlayer";
 
 export default function Hero() {
   return (
