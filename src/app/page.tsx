@@ -4,6 +4,7 @@ import Companies from "./sections/Companies";
 import CTA from "./sections/CTA";
 import Hero from "./sections/Hero";
 import InfoSection from "./sections/InfoSection";
+import StatsSection from "./sections/StatsSection";
 import TestimonialSection from "./sections/TestimonialSection";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Companies />
       <InfoSection />
+      <StatsSection />
       <TestimonialSection />
       <CTA />
       <Footer />
