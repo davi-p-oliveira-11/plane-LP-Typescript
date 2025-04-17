@@ -1,8 +1,8 @@
 import React from "react";
 import { logos } from "../constants/LogoCarousel";
 
-import DataCard from "../components/DataCard";
 import BigCard from "../components/BigCard";
+import SmallCard from "../components/SmallCard";
 
 export default function TestimonialSection() {
   return (
@@ -14,6 +14,10 @@ export default function TestimonialSection() {
       <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-8 text-left">
         <BigCard />
         <SmallCard />
+      </div>
+      <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-8 text-left mt-5">
+        <SmallCard />
+        <BigCard />
       </div>
     </section>
   );
