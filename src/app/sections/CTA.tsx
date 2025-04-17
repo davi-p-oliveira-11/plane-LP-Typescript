@@ -25,18 +25,6 @@ export default function CTA() {
           Join
         </button>
       </div>
-
-      <div className="mx-auto max-w-[696px] grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4 justify-items-center">
-        {logos.slice(0, 7).map((logo, index) => (
-          <div key={index} className="flex justify-center items-center">
-            <img
-              src={logo}
-              alt={`Logo ${index}`}
-              className="w-20 h-20 object-contain"
-            />
-          </div>
-        ))}
-      </div>
     </section>
   );
 }
