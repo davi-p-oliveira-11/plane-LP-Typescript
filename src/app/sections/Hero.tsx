@@ -11,22 +11,24 @@ export default function Hero() {
       </div>
 
       <h1 className="text-4xl md:text-5xl font-bold max-w-4xl mb-4">
-        The future of trust. <br />
-        Powered by Fieldguide
+        Project Management <br />
+        tool from the future.
       </h1>
 
       <p className="text-muted-foreground max-w-xl mb-6 text-base md:text-lg">
-        Streamline your workflows, collaborate in real-time, and deliver
-        top-tier results with less effort.
+        Meet Plane. An open source software development tool to manage Issues,
+        sprints
+        <br />
+        and product roadmaps with peace of mind.
       </p>
 
       <Button />
 
       <Image
-        src="/images/assets/years.svg"
+        src="/images/assets/hero-img.svg"
         alt="Hero illustration"
-        width={238}
-        height={51}
+        width={800}
+        height={300}
         className="mt-6"
       />
 
