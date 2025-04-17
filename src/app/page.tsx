@@ -9,19 +9,23 @@ import TestimonialSection from "./sections/TestimonialSection";
 
 export default function Home() {
   return (
-    <main className="max-w-[1260px] mx-auto px-5 py-8 md:py-0">
-      <Navbar />
-      <Hero />
-      <Companies />
-      <InfoSection />
-      <StatsSection />
-      <TestimonialSection />
-      <div className="bg-[#111827] text-white py-16">
-        <CTA />"
+    <>
+      <main className="max-w-[1260px] mx-auto px-5 py-8 md:py-0">
+        <Navbar />
+        <Hero />
+        <Companies />
+        <InfoSection />
+        <StatsSection />
+        <TestimonialSection />
+      </main>
+
+      <div className="max-w-[1440px] bg-[#111827] text-white py-16">
+        <CTA />
       </div>
-      <div>
+
+      <div className="max-w-[1440px] bg-[#0F172A] text-white py-12">
         <Footer />
       </div>
-    </main>
+    </>
   );
 }

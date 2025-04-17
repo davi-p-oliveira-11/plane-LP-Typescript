@@ -11,8 +11,8 @@ const currentYear = new Date().getFullYear();
 
 export default function Footer() {
   return (
-    <footer className="bg-black-background text-white py-12 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+    <footer className="bg-black-background text-white py-20 px-12">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="flex flex-col items-start space-y-4">
           <Image
             src="/images/assets/plane-white.svg"
@@ -48,6 +48,9 @@ export default function Footer() {
             </ul>
           </div>
         ))}
+      </div>
+      <div>
+        <p>Copy right</p>
       </div>
     </footer>
   );

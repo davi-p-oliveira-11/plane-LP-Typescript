@@ -1,10 +1,7 @@
-import Image from "next/image";
-import ball from "../../../public/images/assets/ball-2.svg";
-
 export default function BigCardSection() {
   return (
     <section className="px-4 py-8 flex justify-center bg-black">
-      <div className="relative w-full max-w-6xl rounded-2xl bg-[#111827] text-white p-6 overflow-hidden min-h-[100px]">
+      <div className="relative w-full max-w-6xl rounded-2xl text-white p-6 overflow-hidden min-h-[400px] bg-[#111827]">
         <div className="text-center mb-10 relative z-10">
           <h3 className="text-3xl font-semibold mb-4">Ready to launch?</h3>
           <p className="text-gray-300 mb-6 max-w-xl mx-auto">
