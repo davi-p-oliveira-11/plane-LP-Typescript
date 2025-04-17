@@ -14,7 +14,7 @@ export default function InfoSection() {
         <InfoCard />
         <div className="flex-1">
           <Image
-            src="/images/assets/image-1.svg"
+            src="/images/assets/info-img-1.svg"
             alt="Illustration"
             width={606}
             height={606}
@@ -26,7 +26,7 @@ export default function InfoSection() {
       <div className="flex flex-col lg:flex-row items-center gap-12 text-left mt-20">
         <div className="flex-1">
           <Image
-            src="/images/assets/image-2.svg"
+            src="/images/assets/info-img-2.svg"
             alt="Illustration"
             width={606}
             height={606}
@@ -34,6 +34,19 @@ export default function InfoSection() {
           />
         </div>
         <InfoCard />
+      </div>
+
+      <div className="flex flex-col lg:flex-row items-center gap-12 text-left mt-20">
+        <InfoCard />
+        <div className="flex-1">
+          <Image
+            src="/images/assets/info-img-3.svg"
+            alt="Illustration"
+            width={606}
+            height={606}
+            className="w-full h-auto rounded-lg shadow-md"
+          />
+        </div>
       </div>
     </section>
   );
